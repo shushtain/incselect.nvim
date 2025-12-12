@@ -2,11 +2,11 @@
 
 Incselect lets you incrementally select tree-sitter nodes.
 
-> If you came here in search of something that will bring back the original `incremental_selection` module of [nvim-treesitter:master](https://github.com/nvim-treesitter/nvim-treesitter/tree/master), consider [treesitter-modules.nvim](https://github.com/MeanderingProgrammer/treesitter-modules.nvim).
+> If you've come here in search of something that will bring back the original `incremental_selection` module of [nvim-treesitter:master](https://github.com/nvim-treesitter/nvim-treesitter/tree/master), consider [treesitter-modules.nvim](https://github.com/MeanderingProgrammer/treesitter-modules.nvim).
 
 ## Setup
 
-There is no `setup()` function, as there are no config options for now. Just install the plugin and set your preferred keymaps (no defaults).
+There is no `setup()` function, as there are no configuration options for now. Just install the plugin and set your preferred keymaps (no defaults).
 
 ```lua
 vim.keymap.set("n", "<CR>", require("incselect").init)
