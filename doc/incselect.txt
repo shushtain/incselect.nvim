@@ -1,4 +1,4 @@
-*incselect.txt*                                                      Incselect
+*incselect.txt*                         Incremental selection with Tree-sitter
 
 Incselect lets you incrementally select tree-sitter nodes.
 
